@@ -2,8 +2,12 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
+}
+img{
+  width: 300px;
+  height: 300px;
 }
 .card{
   max-width: 500px;
@@ -14,9 +18,16 @@
   box-shadow: 5px 10px #888888;
   background-color: rgba(100, 100, 100, 0.5);
 }
+.footer{
+  margin-top: auto;
+}
 
 @media (max-width: 770px) {
   .card{
     margin: 4%;
   }
+  img{
+  width: 200px;
+  height: 200px;
+}
 }
